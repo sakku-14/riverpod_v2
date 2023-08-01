@@ -6,12 +6,12 @@ part of 'my_home_page_view_model.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$myHomePageHash() => r'6820498c986f06f9749c96b64d58cdd85a369f69';
+String _$myHomePageHash() => r'd6cf8aaff6d6bae859d87fb1971b29e642cc4bd3';
 
 /// See also [MyHomePage].
 @ProviderFor(MyHomePage)
 final myHomePageProvider =
-    AutoDisposeNotifierProvider<MyHomePage, int>.internal(
+    AutoDisposeNotifierProvider<MyHomePage, MyHomePageViewModelState>.internal(
   MyHomePage.new,
   name: r'myHomePageProvider',
   debugGetCreateSourceHash:
@@ -20,6 +20,6 @@ final myHomePageProvider =
   allTransitiveDependencies: null,
 );
 
-typedef _$MyHomePage = AutoDisposeNotifier<int>;
+typedef _$MyHomePage = AutoDisposeNotifier<MyHomePageViewModelState>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member

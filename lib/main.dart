@@ -46,7 +46,7 @@ Widget build(BuildContext context, WidgetRef ref) {
               'You have pushed the button this many times:',
             ),
             Text(
-              '$state',
+              '${state.count}',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
