@@ -53,7 +53,8 @@ Widget build(BuildContext context, WidgetRef ref) {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: notifier.incCount,
+        // onPressed: notifier.incCount,
+        onPressed: notifier.onTapHoge,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ),
